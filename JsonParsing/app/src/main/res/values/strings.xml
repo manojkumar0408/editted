@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JsonParsing</string>
+
+    <string name="hexvalue">HexValue</string>
+    <string name="parse_and_display">Parse And Display</string>
+    <string name="color">color</string>
+
+</resources>

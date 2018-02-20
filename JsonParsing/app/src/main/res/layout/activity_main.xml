@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iwave.jsonparsing.MainActivity">
+
+    <TextView
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnParse"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnParse"
+        android:layout_marginBottom="236dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="@string/color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/HexValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Color"
+        android:layout_alignStart="@+id/Color"
+        android:layout_alignTop="@+id/Color"
+        android:layout_marginTop="104dp"
+        android:text="@string/hexvalue" />
+
+    <Button
+        android:id="@+id/btnParse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/HexValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="@string/parse_and_display" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnParse"
+        android:layout_alignStart="@+id/btnParse"
+        android:layout_below="@+id/btnParse"
+        android:text="@string/color" />
+
+    <TextView
+        android:id="@+id/LabelHexValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/HexValue"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:text="@string/hexvalue" />
+
+</RelativeLayout>
