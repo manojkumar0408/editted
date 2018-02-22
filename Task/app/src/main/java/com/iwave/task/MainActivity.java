@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.mRecyclerView);
+        mRecyclerview.setAdapter(mAdapter);
 
         mRecyclerView.setHasFixedSize(true);
 
