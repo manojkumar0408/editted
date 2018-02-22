@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="parse_and_display">Parse and Display</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+</resources>
